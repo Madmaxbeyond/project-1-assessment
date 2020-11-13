@@ -17,7 +17,7 @@ buttonSubtract.addEventListener('click', handleSubtract);
 /*----- functions -----*/
 function init() {
     runningTotal = 0;
-    input1.value.innerText = `1`;
+    input1.innerText = '1';
     render();
 }
 
