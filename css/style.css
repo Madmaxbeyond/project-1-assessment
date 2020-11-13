@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+    
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
+#add-button {
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#add-button:hover {
+    background-color: white;
+    color: gray;
+}
+
+#subtract-button {
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#subtract-button:hover {
+    background-color: white;
+    color: gray;
+}
+
+.red {
+    color: red;
+}
